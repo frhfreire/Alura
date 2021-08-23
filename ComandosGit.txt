@@ -1,0 +1,14 @@
+Comandos git
+git --version        --> Verifica a versão do git instalada
+git init             --> indicar uma pasta como repositório
+    git init --bare  --> Cria um repositório "puro (que só contém as alterações"
+git add              --> Adicionar um arquivo para ser monitorado pelo git
+git status           -->  Status do monitoramento de um determinado repositório
+git commit -m "<msg" -->  git commit -m "import inicial"
+git log              --> Verifica o histórico (por ordem coronológica)
+    git log --oneline    --> Resumo das modificações
+	git log -p           --> Detalhe das modificações
+	(procurar na internet git log cheatsheet) --> https://devhints.io/git-log
+git config --local   --> Configurações somente para o projeto
+git config --global  --> Configurações somente para a máquina como um "todo"
+
